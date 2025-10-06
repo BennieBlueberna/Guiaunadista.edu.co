@@ -391,9 +391,182 @@
                   "horario": "Lunes a viernes 9:00 am - 12:30 pm / 2:00 pm - 6:00 pm - Sábados 9:00 am - 1:00 pm"
                 }
             ] },
-            { "name": "Zona Centro Oriente - ZCORI", "sedes": [] },
-            { "name": "Zona Centro Sur - ZCSUR", "sedes": [] },
-            { "name": "Zona Sur - ZSUR", "sedes": [] }
+            { "name": "Zona Centro Oriente - ZCORI", 
+            "sedes": [
+               {
+                  "nombre": "Barrancabermeja",
+                  "direccion": "Calle 55 # 23-31 Barrio Galán-Segunda sede Calle 55 # 23-25 Barrio Galan",
+                  "telefono": "3182194645 -  3182194645",
+                  "Área Administrativa": " (Incluido Registro y Control) Lunes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm - Sábados 8:00 am a 1: 00 pm ",
+                  "Docentes tiempo completo": "Lunes a viernes 9:00 am a 12:00 pm / 4:00 pm a 8:00 pm - Sábados 8:00 am a 1:00 pm /2:00 pm a 5:00 pm"
+                },
+                {
+                  "nombre": "Bucaramanga",
+                  "direccion": "Carrera 16 #10a-21. Barrio Comuneros.",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario Area Administrativa": "  Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm",
+                  "horario Docentes ocasionales ": "Lunes a viernes 8:00 am a 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm.",
+                  "horario Registro y Control": " Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm"
+                },
+                {
+                  "nombre": "Cúcuta",
+                  "direccion": "Calle 24 # 2-172 Urbanización García Herreros",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario Área Administrativa": "  (incluye Registro y Control):  Lunes a viernes:  8:00 a.m. - 12:00 m / 2:00 p.m. - 5:00 p.m. / Sábados: 8:00 a.m. - 1:00 pm",
+                  "Consejería Académica": " Lunes a viernes: 9:00 a.m. - 12:00 m / 2:00 p.m. - 6:00 p.m. / Sábados: 8:00 a.m. - 1:00 pm.",
+                  "Docentes Ocasionales": " Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm "
+                },
+                {
+                  "nombre": "Málaga",
+                  "direccion": "Carrera 9 # 15 - 20 Barrio Union",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario": " Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados: 8:00 am - 1:00 pm "
+                },
+                {
+                  "nombre": "Fusagasugá",
+                  "direccion": " Avenida 8 N 4-18 Barrio Simon Bolivary",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Área académica": "Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                },
+                {
+                  "nombre": "Ocaña",
+                  "direccion": "Calle 10 N 12 - 11 Centro, Edificio Movistar - Antiguo Telecom.",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Area Administrativa": "   (Incluido Registro y Control) Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm",
+                  "horario Docentes": " Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 8:00 pm - Sábados 8:00 am - 1:00 pm "
+                },
+                {
+                  "nombre": "Pamplona",
+                  "direccion": "Calle 5 # 3 - 05 Barrio El Carmen",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario Área académica": " Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados: 8:00 am - 12:00 pm"
+                },
+                {
+                  "nombre": "Vélez",
+                  "direccion": " Carrera 5 # 9 - 68",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Area Administrativa": " (Incluido Registro y Control) Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm - Sábados 8:00 am a 1: 00 pm/ 2:00 pm a 5:00 pm ",
+                  "horario Docentes": " Martes a viernes 3:00 pm a 6:00 pm / Sábados 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm. "
+                }
+            ] },
+            { "name": "Zona Centro Sur - ZCSUR", 
+            
+            "sedes": [
+              {
+                  "nombre": "Cali",
+                  "direccion": "Av. Roosvelt # 36 - 60",
+                  "telefono": "3182194645 -  3182194645",
+                  "Área Administrativa": " Lunes a viernes 8:00 am -12:00 pm y 2:00 pm - 6:00 pm - Sábado de 8:00 am -12:00 pm "
+                },
+                {
+                  "nombre": "El bordo",
+                  "direccion": "Calle 5 N 7- 45 B / Barrio Limonar",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario": "Lunes a viernes 9:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
+                },
+                {
+                  "nombre": "Palmira",
+                  "direccion": "Carrera 28 # 40 - 56 Barrio Versalles",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario Área Administrativa": "Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
+                },
+                {
+                  "nombre": "Pasto",
+                  "direccion": "Calle 14 No. 28-45 Sector Bomboná",
+                  "telefono": "  3182194645 -  3182194645 ",
+                  "horario": " Lunes a viernes 9:00 am -12:00 pm / 2:00 pm - 7:00 pm - Sábado de 8:00 am - 12:00 pm "
+                },
+                {
+                  "nombre": "Popayán",
+                  "direccion": "Sede norte (principal): Cra 5 #46N - 67 /  Sede Centro carrera 3 #2-55",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Área académica": "Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 12:00 pm"
+                },
+                {
+                  "nombre": "Santander de Quilichao",
+                  "direccion": "C Carrera 7 # 2B - 20 (Frente al Parque Bolívar",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Area Administrativa": "Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 12:00 pm"
+                },
+                {
+                  "nombre": "Tumaco",
+                  "direccion": "Calle Sucre C # 132 Piso 2 FRENTE AL BANCO BOGOTA",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario Área académica": " Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
+                }
+            ] },
+            { "name": "Zona Sur - ZSUR", 
+            "sedes": [
+              {
+                  "nombre": "Neiva",
+                  "direccion": "Av. Roosvelt # 36 - 60",
+                  "telefono": "3182194645 -  3182194645",
+                  "Área Administrativa": " Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 12:00 m / 1:00 pm - 5:00 pm "
+                },
+                {
+                  "nombre": "Florencia",
+                  "direccion": "Cra 1 # 31 - 30 Barrio Cunduy",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario": "Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 12:00 m / 2:00 pm - 5:00 pm"
+                },
+                {
+                  "nombre": "Ibagué",
+                  "direccion": "Calle 34 # 9a - 26 Barrio San Simón Parte Baja",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario": "Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 12:00 m / 2:00 pm - 4:00 pm"
+                },
+                {
+                  "nombre": "La Plata",
+                  "direccion": "Calle 5 # 10 - 04, Primero de Mayo",
+                  "telefono": "  3182194645 -  3182194645 ",
+                  "horario Registro y Control": "  Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 m ",
+                  "horario Docentes y Consejería académica": " Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm. "
+                },
+                {
+                  "nombre": "Líbano",
+                  "direccion": "Av. Dg 3 Con Kr 17 Antiguo Batallon Patriotas - Barrio Las ferias",
+                  "telefono": " 3182194645 -  3182194645",
+                  "horario Registro y Control": "  Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 m / 2:00 pm - 5:00 pm ",
+                  "horario Docentes y Consejería académica": " Lunes, martes, jueves, viernes y sábado 8:00 am - 12:00 m "
+                },
+                {
+                  "nombre": "Mariquita",
+                  "direccion": "Calle 6 # 2A-44 Barrio Centro",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Area Administrativa": " Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                },
+                {
+                  "nombre": "Pitalito",
+                  "direccion": "Av. Pastrana # 19 - 50 sur",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Area Administrativa": " Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 5:00 pm"
+                },
+                {
+                  "nombre": "Puerto Asís",
+                  "direccion": "Carrera 25# 13-96 Barrio el recreo",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Area Administrativa": "Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 12:00 pm"
+                },
+                {
+                  "nombre": "San Vicente del Caguán",
+                  "direccion": "Km. 4 Vía Neiva, diagonal al aeropuerto Ciudadela Don Bosco",
+                  "telefono": "3182194645 -  3182194645",
+                  "horario Area Administrativa": " Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 m / 2:00 pm - 5:00 pm"
+                },
+                {
+                  "nombre": "Puerto Leguizamo",
+                  "direccion": "Barrio Centro Cra. 3 #1-04",
+                  "telefono": " 3182194645 -  3182194645",
+                  "horario Registro y Control": "  Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm ",
+                  "horario Docentes y Consejería académica": " Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm "
+                },
+                {
+                  "nombre": "Valle del Guamuez",
+                  "direccion": "Cra. 6 # 25-05 vía a la Dorada",
+                  "telefono": " 3182194645 -  3182194645 ",
+                  "horario Área académica": "  Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:30 pm - Sábados 8:00 am - 1:00 pm"
+                }
+            ] }
           ]
         }
       ]
@@ -425,6 +598,7 @@
     ]
   }
 }
+
 
 
 
