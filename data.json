@@ -124,7 +124,7 @@
                   "nombre": "La Tebaida",
                   "direccion": "Cra 10, entre calles 8 y 9, junto al Museo de la Quindianidad. La Tebaida, Quindío.",
                   "telefono": "3174351166",
-                  "horario": "Lunes a viernes: De 8:00 a.m. a 12:00 m y de 2:00 p.m. a 6:00 p.m. Sábados de 8:00 a.m. a 1:00 p.m. "
+                  "horario": "Lunes a viernes: De 8:00 a.m. a 12:00 m y de 2:00 p.m. a 6:00 p.m. Sábados de 8:00 a.m. a 1:00 p.m."
                 },
                 {
                   "nombre": "Medellín",
@@ -152,8 +152,8 @@
                   "nombre": "Acacias",
                   "direccion": "Kilometro 1 vía acacias Villavicencio",
                   "telefono": "3222506976 / 3122981972 / 3112904798",
-                  "horario Área Administrativa ": "De lunes a viernes de 08:00 am a 12:00 pm / 1:00 pm a 5:00 pm",
-                  "horario Consejería académica": "Martes a viernes 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm, sábados 7:00 am a 12:00 pm / 2:00 pm a 4:00 pm"
+                  "horario": "Área Administrativa: De lunes a viernes de 08:00 am a 12:00 pm / 1:00 pm a 5:00 pm",
+                  "horario": "Consejería académica: Martes a viernes 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm, sábados 7:00 am a 12:00 pm / 2:00 pm a 4:00 pm"
                 },
                 {
                   "nombre": "Cumaral",
@@ -171,8 +171,8 @@
                   "nombre": "Leticia",
                   "direccion": "Calle 12 # 7-45 Barrio José María Hernández",
                   "telefono": "3176592896",
-                  "horario Área Administrativa ": "Lunes a Viernes 7:00 am - 11:00 am / 2:00 pm - 6:00 pm Sábados de 7:00 am - 11:00 am",
-                  "horario Área académica": "Martes a sábado 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm"
+                  "horario": "Área Administrativa: Lunes a Viernes 7:00 am - 11:00 am / 2:00 pm - 6:00 pm Sábados de 7:00 am - 11:00 am",
+                  "horario": "Área académica: Martes a sábado 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm"
                 },
                 {
                   "nombre": "Puerto Carreño",
@@ -184,15 +184,15 @@
                   "nombre": "San José del Guaviare",
                   "direccion": " Calle 19 # 19E - 40 Barrio La Granja",
                   "telefono": "608 - 5840545 / 608 – 5841787",
-                  "horario Área Administrativa ": "(Incluido Registro y control) de lunes a viernes de 08:00 am a 12:00 pm / 02:00 pm a 06:00 pm, sábados 8:00 am a 12: 00 pm",
-                  "horario Área académica": "lunes a viernes 8:00 am a 12:00 pm / 2:00 pm a 8:00 pm, (los tutores de tiempo completo de lunes a viernes de 08:00 am a 12:00 pm / 02:00 pm a 06:00 pm, sábados 8:00 am a 12: 00 pm y los de medio tiempo de 5:00 pm a 8:00 pm) sábados 8:00 am a 1: 00 pm"
+                  "horario": "Área Administrativa :(Incluido Registro y control) de lunes a viernes de 08:00 am a 12:00 pm / 02:00 pm a 06:00 pm, sábados 8:00 am a 12: 00 pm",
+                  "horario ": "Área académica: lunes a viernes 8:00 am a 12:00 pm / 2:00 pm a 8:00 pm, (los tutores de tiempo completo de lunes a viernes de 08:00 am a 12:00 pm / 02:00 pm a 06:00 pm, sábados 8:00 am a 12: 00 pm y los de medio tiempo de 5:00 pm a 8:00 pm) sábados 8:00 am a 1: 00 pm"
                 },
                 {
                   "nombre": "Yopal",
                   "direccion": "Carrera 15 # 14 - 65 Barrio La Corocora",
                   "telefono": "608 -  6334591 / 3118044764",
-                  "horario Área Administrativa ": "(Incluido Registro y Control) Lunes a Viernes 9:00 am a 12:00 pm. - 2:00 pm a 7:00 pm, Sábado: 8:00 am. a 1:00 pm",
-                  "horario Área académica": " Lunes a Viernes 2:00 pm. a 8:00 pm.Sábado: 8:00 am. a 12:00 pm. / 1:00 pm a 5:00 pm"
+                  "horario": "Área Administrativa: (Incluido Registro y Control) Lunes a Viernes 9:00 am a 12:00 pm. - 2:00 pm a 7:00 pm, Sábado: 8:00 am. a 1:00 pm",
+                  "horario": "Área académica: Lunes a Viernes 2:00 pm. a 8:00 pm.Sábado: 8:00 am. a 12:00 pm. / 1:00 pm a 5:00 pm"
                 }
               ] 
             },
@@ -214,8 +214,8 @@
                   "nombre": "Cubará",
                   "direccion": "Carrera 3 # 5 - 54",
                   "telefono": "3134194092",
-                  "horario Área Administrativa ": "Lunes de 7:00 am 1:00 pm, Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm - 6:00 pm - Sábados 7:00 am a 1: 00 pm",
-                  "horario Área académica": "Lunes de 8:00 am 12:00 pm, Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm - 8:00 pm - Sábados 8:00 am a 12:00 pm"
+                  "horario": "Área Administrativa: Lunes de 7:00 am 1:00 pm, Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm - 6:00 pm - Sábados 7:00 am a 1: 00 pm",
+                  "horario": "Área académica: Lunes de 8:00 am 12:00 pm, Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm - 8:00 pm - Sábados 8:00 am a 12:00 pm"
                 },
                 {
                   "nombre": "Duitama",
@@ -227,39 +227,39 @@
                   "nombre": "Garagoa",
                   "direccion": "Calle 10 #16-02",
                   "telefono": "608 - 7881226 / 3112815611",
-                  "horario Área Administrativa ": "Lunes de 7:00 am 1:00 pm, Martes a viernes de 8:00 am a 12:00 pm y 2:00 pm - 6:00 pm - Sábados 7:00 am a 1: 00 pm",
-                  "horario Área académica": "Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
+                  "horario": "Área Administrativa: Lunes de 7:00 am 1:00 pm, Martes a viernes de 8:00 am a 12:00 pm y 2:00 pm - 6:00 pm - Sábados 7:00 am a 1: 00 pm",
+                  "horario": "Área académica: Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
                 },
                 {
                   "nombre": "Soatá",
                   "direccion": "Carrera 6 # 8 - 47",
                   "telefono": "608 - 5840545 / 608 - 5841787",
-                  "horario Área académica": "Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
+                  "horario": "Área académica: Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
                 },
                 {
                   "nombre": "Yopal",
                   "direccion": "Carrera 15 # 14 - 65 Barrio La Corocora",
                   "telefono": "608 -  6334591 / 3118044764",
-                  "horario Área Administrativa ": "(Incluido Registro y Control) Lunes a Viernes 9:00 am a 12:00 pm. - 2:00 pm a 7:00 pm, Sábado: 8:00 am. a 1:00 pm",
-                  "horario Área académica": "Lunes a Viernes 2:00 pm. a 8:00 pm.Sábado: 8:00 am. a 12:00 pm. / 1:00 pm a 5:00 pm"
+                  "horario": "Área Administrativa:(Incluido Registro y Control) Lunes a Viernes 9:00 am a 12:00 pm. - 2:00 pm a 7:00 pm, Sábado: 8:00 am. a 1:00 pm",
+                  "horario": "Área académica: Lunes a Viernes 2:00 pm. a 8:00 pm.Sábado: 8:00 am. a 12:00 pm. / 1:00 pm a 5:00 pm"
                 },
                 {
-                  "nombre": "Socha",
+                  "nombre": "Soacha",
                   "direccion": "Calle 9 con Carrera 8 esquina",
                   "telefono": "3112815560",
-                  "horario Área académica": "Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
+                  "horario": "Área académica: Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
                 },
                 {
                   "nombre": "Sogamoso",
                   "direccion": "Calle 5 # 1 - 08 Barrio Monquira",
                   "Teléfono": "Consejería académica y monitoria: 3173680062\nDirección de centro: 3176433722\nRegistro y control: 3112814973",
-                  "horario Área académica": "Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
+                  "horario": "Área académica Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
                 },
                 {
                   "nombre": "Tunja",
                   "direccion": "Calle 18 con Carrera 1 Barrio Manzanares",
                   "telefono": "(601) 3443700 extensión 8002, 8003, 8020",
-                  "horario Área académica": "Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
+                  "horario": "Área académica: Lunes  y Sábados:  7 a.m a 1 p.m / Martes a Viernes :  8 am  a 12 m  y 2 p.m a 6 p.m"
                 }
                 
              ] 
@@ -270,9 +270,9 @@
                   "nombre": "Aguachica",
                   "direccion": "Dirección: Calle 5 # 38-52",
                   "telefono": "3182194645 -  3182194645",
-                  "horario consejeria ": "Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm - Sábados: 8:00 am - 1:00 pm.",
-                  "horario Registro y Control ": "Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm - Sábados: 8:00 am - 11:00 am",
-                  "horario Sala Sistemas": "Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm - Sábados: 8:00 am - 1:00 pm"
+                  "horario": "consejeria:Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm - Sábados: 8:00 am - 1:00 pm.",
+                  "horario": "Registro y Control: Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm - Sábados: 8:00 am - 11:00 am",
+                  "horario": "Sala Sistemas: Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm - Sábados: 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Puerto Colombia",
@@ -284,8 +284,8 @@
                   "nombre": "Cartagena",
                   "direccion": "Transversal 45 # 44A - 221 Avenida al Acueducto - Barrio Paraguay",
                   "telefono": "3182194645 -  3182194645",
-                  "horario de Atencion": "Lunes a viernes 8:00 am - 6:00 pm / Sábados 8:00 am - 12:00 pm",
-                  "Docentes": " los sábados de 8:00 am a 1:00 pm"
+                  "horario": "horario de Atencion: Lunes a viernes 8:00 am - 6:00 pm / Sábados 8:00 am - 12:00 pm",
+                  "horario": "Docentes: los sábados de 8:00 am a 1:00 pm"
                 },
                 {
                   "nombre": "Corozal",
@@ -297,20 +297,20 @@
                   "nombre": "Curumaní",
                   "direccion": "Carrera 17 # 12 - 57 Barrio El Paraíso antiguo subcentro Jaime Mestre Cock",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Área académica": "Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "horario": "Área académica: Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "La Guajira",
                   "direccion": "Calle 15 # 8 - 63 Riohacha",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Área Administrativa ": "(Incluido Registro y Control) de lunes a viernes de 9:00 am a 12:00 pm / 3:00 pm a 6:00 pm - Sábados 8:00 am a 12:00 pm",
-                  "Sala de sistemas estudiantes": " de 8:00 am a 6:00 pm"
+                  "horario": "Área Administrativa (Incluido Registro y Control) de lunes a viernes de 9:00 am a 12:00 pm / 3:00 pm a 6:00 pm - Sábados 8:00 am a 12:00 pm",
+                  "horario": "Sala de sistemas estudiantes de 8:00 am a 6:00 pm"
                 },
                 {
                   "nombre": "Plato",
                   "direccion": "Avenida 14 los contenedores - IED Gabriel Escobar Ballestas sede Principal",
                   "telefono": "3182194645 -  3182194645",
-                  "horario Área académica": " Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                  "horario": " Área académica: Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm"
                 },
                 {
                   "nombre": "Sahagún",
@@ -322,13 +322,13 @@
                   "nombre": "Santa Marta",
                   "direccion": "Av. El Libertador # 30 - 320Carrera 23 con Diagonal 25F Barrio Milán",
                   "Teléfono": "3182194645 - 3182194645",
-                  "horario Área académica": "Lunes a viernes de 8:00 am a 12.00m / de 1:00pm a 6:00pm - Sábados de 8:00 am a 12.00 pm"
+                  "horario": "Área académica: Lunes a viernes de 8:00 am a 12.00m / de 1:00pm a 6:00pm - Sábados de 8:00 am a 12.00 pm"
                 },
                 {
                   "nombre": "Valledupar",
                   "direccion": "Calle 39 # 4B - 02 Barrio Panamá",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Área académica": " Lunes a viernes 09:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm "
+                  "horario": "Área académica: Lunes a viernes 09:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm "
                 }
             ] },
             { "name": "Zona Centro Bogotá - ZCBC", 
@@ -350,7 +350,7 @@
                   "nombre": "Chipaque",
                   "direccion": "Carrera 3 # 5 -18 Segundo piso salón multifuncional",
                   "telefono": " 3182194645 - 3182194645",
-                  "horario de Atencion": "Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 5:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "horario": "Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 5:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Facatativá",
@@ -362,21 +362,21 @@
                   "nombre": "Fusagasugá",
                   "direccion": " Avenida 8 N 4-18 Barrio Simon Bolivary",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Área académica": "Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "horario": "Área académica: Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Gachetá",
                   "direccion": "Calle 15 # 8 - 63 Riohacha",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Area Administrativa": "Lunes a viernes 8:30 am -12:30 pm / 2:00 pm - 6:00 pm - sábados 8:00 am - 12:00 pm",
-                  "horario Consejeria ": "lunes a viernes 9:00 am a 12:00 pm / 2:00 pm a 6:00 pm - sábados 8:00 am -12:00 pm.",
-                  "horario Docentes": "Lunes a viernes de 9:00 am a 12:00 pm y de 2:00 pm a 6:00 pm - Sábados: 8:00 am a 1:00 pm acompañamiento INSITU"
+                  "horario": "Area Administrativa Lunes a viernes 8:30 am -12:30 pm / 2:00 pm - 6:00 pm - sábados 8:00 am - 12:00 pm",
+                  "horario": "Consejeria: Lunes a viernes 9:00 am a 12:00 pm / 2:00 pm a 6:00 pm - sábados 8:00 am -12:00 pm.",
+                  "horario": "Docentes: Lunes a viernes de 9:00 am a 12:00 pm y de 2:00 pm a 6:00 pm - Sábados: 8:00 am a 1:00 pm acompañamiento INSITU"
                 },
                 {
                   "nombre": "Girardot",
                   "direccion": "Carrera 10 # 36 - 50 Vía Tocaima, barrio Rosa Blanca",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Área académica": "Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "horario": " Área académica: Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Soacha",
@@ -397,24 +397,24 @@
                   "nombre": "Barrancabermeja",
                   "direccion": "Calle 55 # 23-31 Barrio Galán-Segunda sede Calle 55 # 23-25 Barrio Galan",
                   "telefono": "3182194645 - 3182194645",
-                  "Área Administrativa": "(Incluido Registro y Control) Lunes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm - Sábados 8:00 am a 1:00 pm",
-                  "Docentes tiempo completo": "Lunes a viernes 9:00 am a 12:00 pm / 4:00 pm a 8:00 pm - Sábados 8:00 am a 1:00 pm /2:00 pm a 5:00 pm"
+                  "horario": "Área Administrativa: (Incluido Registro y Control) Lunes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm - Sábados 8:00 am a 1:00 pm",
+                  "horario": "Docentes tiempo completo: Lunes a viernes 9:00 am a 12:00 pm / 4:00 pm a 8:00 pm - Sábados 8:00 am a 1:00 pm /2:00 pm a 5:00 pm"
                 },
                 {
                   "nombre": "Bucaramanga",
                   "direccion": "Carrera 16 #10a-21. Barrio Comuneros.",
                   "telefono": " 3182194645 -  3182194645 ",
-                  "horario Area Administrativa": "Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm",
-                  "horario Docentes ocasionales ": "Lunes a viernes 8:00 am a 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm.",
-                  "horario Registro y Control": " Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "horario": " Area Administrativa: Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm",
+                  "horario": " Docentes ocasionales: Lunes a viernes 8:00 am a 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm.",
+                  "horario": " Registro y Control: Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Cúcuta",
                   "direccion": "Calle 24 # 2-172 Urbanización García Herreros",
                   "telefono": "3182194645 -  3182194645",
-                  "horario Área Administrativa": "  (incluye Registro y Control):  Lunes a viernes:  8:00 a.m. - 12:00 m / 2:00 p.m. - 5:00 p.m. / Sábados: 8:00 a.m. - 1:00 pm",
-                  "Consejería Académica": "Lunes a viernes: 9:00 a.m. - 12:00 m / 2:00 p.m. - 6:00 p.m. / Sábados: 8:00 a.m. - 1:00 pm.",
-                  "Docentes Ocasionales": "Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "horario": " Área Administrativa  (incluye Registro y Control):  Lunes a viernes:  8:00 a.m. - 12:00 m / 2:00 p.m. - 5:00 p.m. / Sábados: 8:00 a.m. - 1:00 pm",
+                  "horario": "Consejería Académica: Lunes a viernes: 9:00 a.m. - 12:00 m / 2:00 p.m. - 6:00 p.m. / Sábados: 8:00 a.m. - 1:00 pm.",
+                  "horario": "Docentes Ocasionales: Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Málaga",
@@ -425,28 +425,28 @@
                 {
                   "nombre": "Fusagasugá",
                   "direccion": " Avenida 8 N 4-18 Barrio Simon Bolivary",
-                  "telefono": "3182194645 -  3182194645",
-                  "horario Área académica": "Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "telefono": "3182194645 - 3182194645",
+                  "horario": "Área académica:Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Ocaña",
                   "direccion": "Calle 10 N 12 - 11 Centro, Edificio Movistar - Antiguo Telecom.",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Area Administrativa": "(Incluido Registro y Control) Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm",
-                  "horario Docentes": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 8:00 pm - Sábados 8:00 am - 1:00 pm"
+                  "horario": "Area Administrativa (Incluido Registro y Control) Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm",
+                  "horario": "Docentes: Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 8:00 pm - Sábados 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Pamplona",
                   "direccion": "Calle 5 # 3 - 05 Barrio El Carmen",
                   "telefono": "3182194645 - 3182194645",
-                  "horario Área académica": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados: 8:00 am - 12:00 pm"
+                  "horario": " Área académica: Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados: 8:00 am - 12:00 pm"
                 },
                 {
                   "nombre": "Vélez",
                   "direccion": " Carrera 5 # 9 - 68",
                   "telefono": "3182194645 -  3182194645",
-                  "horario Area Administrativa": "(Incluido Registro y Control) Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm - Sábados 8:00 am a 1: 00 pm/ 2:00 pm a 5:00 pm",
-                  "horario Docentes": "Martes a viernes 3:00 pm a 6:00 pm / Sábados 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm."
+                  "horario":"Area Administrativa:(Incluido Registro y Control) Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm - Sábados 8:00 am a 1: 00 pm/ 2:00 pm a 5:00 pm",
+                  "horario": " Docentes: Martes a viernes 3:00 pm a 6:00 pm / Sábados 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm."
                 }
             ] },
             { "name": "Zona Centro Sur - ZCSUR", 
@@ -456,7 +456,7 @@
                   "nombre": "Cali",
                   "direccion": "Av. Roosvelt # 36 - 60",
                   "telefono": "3182194645 - 3182194645",
-                  "Área Administrativa": "Lunes a viernes 8:00 am -12:00 pm y 2:00 pm - 6:00 pm - Sábado de 8:00 am -12:00 pm"
+                  "horario": "Área Administrativa: Lunes a viernes 8:00 am -12:00 pm y 2:00 pm - 6:00 pm - Sábado de 8:00 am -12:00 pm"
                 },
                 {
                   "nombre": "El bordo",
@@ -468,7 +468,7 @@
                   "nombre": "Palmira",
                   "direccion": "Carrera 28 # 40 - 56 Barrio Versalles",
                   "telefono": " 3182194645 - 3182194645 ",
-                  "horario Área Administrativa": "Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
+                  "horario": "Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
                 },
                 {
                   "nombre": "Pasto",
@@ -480,7 +480,7 @@
                   "nombre": "Popayán",
                   "direccion": "Sede norte (principal): Cra 5 #46N - 67 /  Sede Centro carrera 3 #2-55",
                   "telefono": "3182194645 -  3182194645",
-                  "horario Área académica": "Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 12:00 pm"
+                  "horario": "Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 12:00 pm"
                 },
                 {
                   "nombre": "Santander de Quilichao",
@@ -598,6 +598,7 @@
     ]
   }
 }
+
 
 
 
