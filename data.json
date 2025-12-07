@@ -5,12 +5,14 @@
             "subsections": [
                 {
                     "title": "Presentación",
-                    "content": "Bienvenido a la Guía Unadista, un recurso para conocer los servicios institucionales de la Universidad Nacional Abierta y a Distancia.",
+                    "content": "Bienvenido a la Guía Unadista, tu recurso completo para conocer todos los servicios institucionales de la Universidad Nacional Abierta y a Distancia.",
                     "type": "carousel",
                     "images": [
                         "./assets/carrusel1.png",
                         "./assets/carrusel2.png",
-                        "./assets/carrusel3.jpg"
+                        "./assets/carrusel3.jpg",
+                        "./assets/carrusel4.jpg",
+                        "./assets/carrusel5.jpg"
                     ]
                 },
                 {
@@ -25,7 +27,7 @@
             "subsections": [
                 {
                     "title": "Misión",
-                    "content": "La Universidad Nacional Abierta y a Distancia (UNAD)  tiene como misión contribuir a la educación para todos a través de la modalidad abierta, a distancia y en ambientes virtual de aprendizaje, mediante la acción pedagógica, la proyección social, el desarrollo regional y la acción comunitaria, la inclusión, la solidaridad, la investigación, la internacionalización y la innovación en todas sus expresiones, con el uso intensivo de las tecnologías, en particular de la información y las comunicaciones para fomentar y acompañar el aprendizaje autónomo, significativo y colaborativo, generador  de cultura y espíritu emprendedor que en el marco de la sociedad global y del conocimiento propicie el desarrollo económico, social y humano sostenible de las comunidades locales, regionales y globales con calidad, eficiencia y equidad social."
+                    "content": "La Universidad Nacional Abierta y a Distancia (UNAD) tiene como misión contribuir a la educación para todos a través de la modalidad abierta, a distancia y en ambientes virtuales de aprendizaje, mediante la acción pedagógica, la proyección social, el desarrollo regional y la acción comunitaria, la inclusión, la solidaridad, la investigación, la internacionalización y la innovación en todas sus expresiones, con el uso intensivo de las tecnologías, en particular de la información y las comunicaciones para fomentar y acompañar el aprendizaje autónomo, significativo y colaborativo."
                 },
                 {
                     "title": "Visión",
@@ -33,12 +35,17 @@
                 },
                 {
                     "title": "Decálogo de valores",
-                    "content": "La UNAD, desde sus dimensiones axiológica y ontológica en el desarrollo de su accionar y en el marco de sus principios, cree: En el poder restaurador de los valores, la ética, el respeto, la disciplina el debate, la concertación y la conciliación entre los miembros de nuestra comunidad universitaria y con otros actores sociales del país. En la fortaleza que genera en las personas la integración de la calidad profesional y humana como un resultado de un trabajo reticular e inteligente. Que nuestro compromiso institucional es propender al respeto como elemento básico para su autorrealización personal y profesional. En el potencial creativo, en la actitud crítica, en el trabajo arduo y honesto de nuestra comunidad universitaria. En la educación para todos, en cualquier lugar y momento de la vida, fundamental para la prosperidad de todos los colombianos. En la excelencia institucional y en la capacidad de nuestros egresados para generar progreso. En la libertad de acción, de pensamiento, de culto y de ideas políticas como pilares para una convivencia pacífica, solidaria y tolerante. En la idea de que nuestros derechos deben ser el resultado del ejercicio adecuado de nuestros deberes. En la importancia de trabajar para que la proyección social y la investigación generen mejores condiciones de vida a las poblaciones vulnerables del país. En la necesidad de cualificar a nuestros estudiantes, docentes, monitores, consejeros, egresados y funcionarios de todo nivel, para lograr una sociedad colombiana equitativa, justa y emprendedora."
+                    "content": "La UNAD, desde sus dimensiones axiológica y ontológica en el desarrollo de su accionar y en el marco de sus principios, cree: En el poder restaurador de los valores, la ética, el respeto, la disciplina, el debate, la concertación y la conciliación entre los miembros de nuestra comunidad universitaria. En la educación para todos, en cualquier lugar y momento de la vida, fundamental para la prosperidad de todos los colombianos. En la excelencia institucional y en la capacidad de nuestros egresados para generar progreso."
                 },
                 {
-                    "title": "Bienestar Académico UNADISTA",
-                    "content": "Conoce los programas y servicios de bienestar académico disponibles para la comunidad estudiantil.",
-                    "link": "https://visae.unad.edu.co/bienestar"
+                    "title": "Sistema de Bienestar Integral Unadista",
+                    "content": "El Sistema de Bienestar Integral Unadista es un dispositivo organizacional que fortalece la cultura del buen servicio en los diferentes multicontextos donde actúa la Universidad, fomentando el espíritu unadista solidario dentro de la interacción social, artística, deportiva y cultural.",
+                    "type": "bienestar"
+                },
+                {
+                    "title": "Calculadora de Créditos Académicos",
+                    "content": "Planifica tu carga académica y calcula el costo de tu matrícula. Recuerda: mínimo 9 créditos y máximo 21 créditos por periodo regular.",
+                    "type": "calculadora"
                 },
                 {
                     "title": "Acceso al Campus Virtual",
@@ -76,11 +83,16 @@
             ]
         },
         {
-            "title": "Agenda Académica",
+            "title": "Planificación Académica",
             "subsections": [
                 {
-                    "title": "Próximas Entregas",
-                    "content": "Organiza tus actividades académicas y fechas importantes. Puedes agregar nuevos eventos y eliminar los que ya completaste.",
+                    "title": "Generador de Horarios",
+                    "content": "Organiza tu horario de estudio semanal. Puedes crear un horario personalizado, añadir tus cursos y exportar tu calendario académico.",
+                    "type": "horario"
+                },
+                {
+                    "title": "Agenda Académica",
+                    "content": "Registra tus actividades y fechas de entrega importantes. Puedes agregar, eliminar y gestionar todos tus eventos académicos.",
                     "type": "agenda"
                 }
             ]
@@ -95,455 +107,455 @@
                     "items": [
                         {
                             "q": "¿Después de pagar la matrícula, qué sigue?",
-                            "a": "Si el pago lo realizó en efectivo o pago electrónico debe esperar de 48 a 72 horas hábiles e ingresar a la página de la Universidad al enlace correspondiente para generar su acta de matrícula. Si utilizó otra forma de pago debe enviar el soporte a recaudos.tesoreria@unad.edu.co con sus datos personales, el soporte de la consignación donde se evidencie fecha, valor y cuenta de la UNAD. Debe esperar confirmación en un tiempo máximo de 5 días hábiles."
+                            "a": "Si el pago lo realizó en efectivo o pago electrónico debe esperar de 48 a 72 horas hábiles e ingresar a la página de la Universidad para generar su acta de matrícula. Si utilizó otra forma de pago debe enviar el soporte a recaudos.tesoreria@unad.edu.co con sus datos personales. Debe esperar confirmación en un tiempo máximo de 5 días hábiles."
                         },
                         {
                             "q": "¿Importa la fecha de mi ICFES?",
-                            "a": "No importa el año en que usted presentó su examen de estado ICFES, lo importante es que usted presente el soporte o resultados en el momento de inscripción."
+                            "a": "No importa el año en que usted presentó su examen de estado ICFES, lo importante es que presente el soporte o resultados en el momento de inscripción."
                         },
                         {
                             "q": "¿Cuántos períodos académicos tiene la UNAD?",
-                            "a": "La Universidad Nacional Abierta y a Distancia (UNAD) para el año 2025 ofrecerá cuatro periodos académicos de 16 semanas y un periodo intersemestral o complementario de 8 semanas. El aspirante podrá matricular un máximo de 51 créditos al año, distribuidos de la siguiente manera: entre 14 y 21 créditos por periodo de 16 semanas, y de 4 a 9 créditos en el periodo intersemestral o complementario de 8 semanas."
+                            "a": "La UNAD para 2025 ofrecerá cuatro periodos académicos de 16 semanas y un periodo intersemestral de 8 semanas. Puedes matricular un máximo de 51 créditos al año: entre 9 y 21 créditos por periodo regular, y de 4 a 9 créditos en el periodo intersemestral."
                         },
                         {
                             "q": "¿Si soy egresado SENA qué pasos debo seguir para el proceso de homologación?",
-                            "a": "El Convenio Marco de Cooperación 0256 entre el SENA y la UNAD permite a los egresados del SENA ingresar a programas de educación superior de la UNAD, reconociendo las competencias previamente adquiridas. Para aplicar debe enviar un correo electrónico a la oficina de Registro y Control Académico de la UNAD solicitando la nivelación. El proceso requiere adjuntar: Documento de identidad, Diploma y Acta de grado SENA, Resultado del examen ICFES y Copia del Acuerdo SENA correspondiente. El tiempo de respuesta es de tres días hábiles."
+                            "a": "El Convenio Marco de Cooperación 0256 entre el SENA y la UNAD permite reconocer competencias previas. Debes enviar un correo a Registro y Control Académico adjuntando: Documento de identidad, Diploma y Acta de grado SENA, Resultado del ICFES y Copia del Acuerdo SENA. El tiempo de respuesta es de tres días hábiles."
                         },
                         {
                             "q": "¿Cómo puedo solicitar un certificado de estudio?",
-                            "a": "Las certificaciones de notas o constancias de estudio son expedidas por la Oficina de Registro y Control Académico de la UNAD y pueden solicitarse de manera virtual o presencial. El proceso virtual requiere acceder al Campus Virtual, ingresar al Sistema de Atención Integral (SAI), y completar el Formulario de Atención Virtual. El costo es de $28.000 por formato (valor 2025). El tiempo estimado de respuesta es de 3 días hábiles para la mayoría de solicitudes."
+                            "a": "Puedes solicitarlo de forma virtual a través del Campus Virtual, ingresando al Sistema de Atención Integral (SAI) y completando el Formulario de Atención Virtual. El costo es de $28.000 por formato (valor 2025). El tiempo de respuesta es de 3 días hábiles para la mayoría de solicitudes."
                         },
                         {
                             "q": "¿La UNAD tiene biblioteca virtual?",
-                            "a": "Sí, la Biblioteca UNAD es un centro de soluciones en recursos académicos y de investigación en red. Ofrece servicios de apoyo al aprendizaje e investigación, recursos educativos, canales de atención académica y social, con presencia en más de 50 sedes de la UNAD a nivel nacional. Enlace: https://biblioteca.unad.edu.co"
+                            "a": "Sí, la Biblioteca UNAD ofrece recursos académicos y de investigación en red, con servicios de apoyo al aprendizaje e investigación y presencia en más de 50 sedes a nivel nacional. Visita: https://biblioteca.unad.edu.co"
                         },
                         {
                             "q": "¿Qué pasos debo seguir si quiero un traslado de CEAD?",
-                            "a": "El traslado de documentos se puede solicitar de dos maneras: la primera, a través del FUS Digital, seleccionando la opción Traslado de Documentos, con un tiempo de respuesta de 72 horas hábiles. La segunda opción es de forma presencial, diligenciando el formulario F-7-2-1 y presentándolo en la oficina de Registro y Control. Es requisito indispensable estar a paz y salvo en el CEAD de origen."
+                            "a": "El traslado se solicita a través del FUS Digital, seleccionando 'Traslado de Documentos', con respuesta en 72 horas hábiles. También puedes hacerlo presencialmente con el formulario F-7-2-1. Es requisito indispensable estar a paz y salvo en el CEAD de origen."
                         },
                         {
                             "q": "¿Tengo inconvenientes para ingresar al Campus Virtual, a quién debo dirigirme?",
-                            "a": "Se reporta a través del correo soporte.campus@unad.edu.co indicando sus datos y el error que aparece al intentar el ingreso. Tenga en cuenta que la respuesta puede tardar de 48 a 72 horas debido al volumen de solicitudes atendidas."
+                            "a": "Reporta tu caso a soporte.campus@unad.edu.co indicando tus datos y el error que aparece. La respuesta puede tardar de 48 a 72 horas debido al volumen de solicitudes."
                         },
                         {
                             "q": "¿Qué metodología de estudio maneja la UNAD?",
-                            "a": "La oferta académica de la Universidad se basa en la formación a distancia, una metodología flexible que emplea medios y mediaciones tecnológicas para que el estudiante pueda adelantar sus estudios sin restricciones de edad, tiempo o lugar. La mediación pedagógica principal se desarrolla a través del Campus Virtual, que es la plataforma central para el acceso a contenidos didácticos, actividades interactivas con acompañamiento tutorial, acceso a la biblioteca virtual, y herramientas en línea para el aprendizaje colaborativo."
+                            "a": "La UNAD utiliza formación a distancia con metodología flexible mediante medios tecnológicos. El Campus Virtual es la plataforma central para contenidos didácticos, actividades interactivas con tutores, biblioteca virtual y herramientas de aprendizaje colaborativo."
                         },
                         {
-                            "q": "¿Cómo puedo aplicar al beneficio de descuento electoral y convenios institucionales?",
-                            "a": "El beneficio del descuento electoral otorga entre un 10% y un 25% en el valor de los créditos académicos. Debe solicitarlo antes de realizar su proceso de inscripción o actualización de datos. Es indispensable presentar el certificado original de las últimas votaciones. La aplicación del descuento se realiza a través del Campus Virtual ingresando al Sistema de Atención Integral (SAI), en la sección Gestión Académica. Una vez aplicado, el descuento será válido hasta las próximas elecciones."
+                            "q": "¿Cómo puedo aplicar al beneficio de descuento electoral?",
+                            "a": "El descuento electoral otorga entre 10% y 25% en créditos académicos. Solicítalo antes de inscripción presentando el certificado electoral vigente. Se aplica a través del Campus Virtual en el SAI, sección Gestión Académica. El descuento es válido hasta las próximas elecciones."
                         }
                     ]
                 },
                 {
-                    "title": "Soporte UNAD",
-          "content": "Información de contacto por zonas y sedes de la UNAD.",
-          "type": "support",
-          "zones": [
-            {
-              "name": "Zona Occidente - ZOCC",
-              "sedes": [
-                {
-                  "nombre": "Dosquebradas",
-                  "direccion": "Carrera 23 con Diagonal 25F Barrio Milán",
-                  "telefono": "606 – 3116599",
-                  "horario": "Lunes a Viernes: 8:00 am - 8:00 pm Jornada Continua - Sábados: 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "La Dorada",
-                  "direccion": "Calle 32 # 1 - 40 Barrio La Concordia",
-                  "telefono": "606 - 8572588 / 3123065390",
-                  "horario": "Lunes a Viernes de 8:00 a 5:00 pm jornada continua y Sábados de 8:00 a 12:00 pm"
-                },
-                {
-                  "nombre": "La Tebaida",
-                  "direccion": "Cra 10, entre calles 8 y 9, junto al Museo de la Quindianidad. La Tebaida, Quindío.",
-                  "telefono": "3174351166",
-                  "horario": "Lunes a viernes: De 8:00 a.m. a 12:00 m y de 2:00 p.m. a 6:00 p.m. Sábados de 8:00 a.m. a 1:00 p.m."
-                },
-                {
-                  "nombre": "Medellín",
-                  "direccion": "Carrera 45 # 55 - 19",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm Jornada continua"
-                },
-                {
-                  "nombre": "Quibdó",
-                  "direccion": "Carrera 2 # 24 - 05 Barrio Yesca Grande",
-                  "telefono": "604 – 6721343",
-                  "horario": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm, sábados 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Turbo",
-                  "direccion": "Carrera 34 No. 107-98 Barrio La Lucila",
-                  "telefono": "604 - 827 2230 / 604 - 827 2231 / 3112814255",
-                  "horario": "Lunes a viernes de 9:00 am a 12:00 pm / 1:00 pm a 6:00 pm, sábados 8:00 am a 12:00 pm"
-                }
-              ]
-            },
-            {
-              "name": "Zona Amazonia y Orinoquia - ZAO",
-              "sedes": [
-                {
-                  "nombre": "Acacias",
-                  "direccion": "Kilometro 1 vía acacias Villavicencio",
-                  "telefono": "3222506976 / 3122981972 / 3112904798",
-                  "horario": "Área Administrativa: De lunes a viernes de 08:00 am a 12:00 pm / 1:00 pm a 5:00 pm | Consejería académica: Martes a viernes 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm, sábados 7:00 am a 12:00 pm / 2:00 pm a 4:00 pm"
-                },
-                {
-                  "nombre": "Cumaral",
-                  "direccion": "Casa de la Cultura Piso 2 - Frente a la estación de Policía",
-                  "telefono": "3124542343",
-                  "horario": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 4:00 pm, sábados 9:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Guainía",
-                  "direccion": "Calle 19 # 10 - 44 Barrio Comunero.",
-                  "telefono": "3112816222 / 3219590513",
-                  "horario": "Lunes a viernes 08:00 am - 12:00 pm / 2:00 pm - 7:00 pm, sábados 08:00 am - 1:00 pm - Consejería académica"
-                },
-                {
-                  "nombre": "Leticia",
-                  "direccion": "Calle 12 # 7-45 Barrio José María Hernández",
-                  "telefono": "3176592896",
-                  "horario": "Área Administrativa: Lunes a Viernes 7:00 am - 11:00 am / 2:00 pm - 6:00 pm, Sábados de 7:00 am - 11:00 am | Área académica: Martes a sábado 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm"
-                },
-                {
-                  "nombre": "Puerto Carreño",
-                  "direccion": "Calle 7 # 20 - 169 Barrio Santa Teresita",
-                  "telefono": "608 - 5654405 / 3112814949",
-                  "horario": "Lunes a viernes 08:00 am - 12:00 pm / 2:00 pm - 6:00 pm y sábados 08:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "San José del Guaviare",
-                  "direccion": "Calle 19 # 19E - 40 Barrio La Granja",
-                  "telefono": "608 - 5840545 / 608 – 5841787",
-                  "horario": "Área Administrativa (Incluido Registro y control): lunes a viernes de 08:00 am a 12:00 pm / 02:00 pm a 06:00 pm, sábados 8:00 am a 12:00 pm | Área académica: lunes a viernes 8:00 am a 12:00 pm / 2:00 pm a 8:00 pm (tutores tiempo completo: lunes a viernes de 08:00 am a 12:00 pm / 02:00 pm a 06:00 pm, sábados 8:00 am a 12:00 pm, medio tiempo: 5:00 pm a 8:00 pm), sábados 8:00 am a 1:00 pm"
-                },
-                {
-                  "nombre": "Yopal",
-                  "direccion": "Carrera 15 # 14 - 65 Barrio La Corocora",
-                  "telefono": "608 - 6334591 / 3118044764",
-                  "horario": "Área Administrativa (Incluido Registro y Control): Lunes a Viernes 9:00 am a 12:00 pm - 2:00 pm a 7:00 pm, Sábado: 8:00 am a 1:00 pm | Área académica: Lunes a Viernes 2:00 pm a 8:00 pm, Sábado: 8:00 am a 12:00 pm / 1:00 pm a 5:00 pm"
-                }
-              ]
-            },
-            {
-              "name": "Zona Centro Boyacá - ZCBOY",
-              "sedes": [
-                {
-                  "nombre": "Boavita",
-                  "direccion": "Carrera 4 # 8 - 26",
-                  "telefono": "608 - 7885292 / 3133700374",
-                  "horario": "Lunes y Sábados: 7 a.m a 1 p.m / Martes a Viernes: 8 am a 12 m y 2 p.m a 6 p.m"
-                },
-                {
-                  "nombre": "Chiquinquirá",
-                  "direccion": "Carrera 6 # 30-32 Barrio Jardín del Norte",
-                  "telefono": "608 - 7260775 / 3112814953",
-                  "horario": "Lunes y Sábados: 7 a.m a 1 p.m / Martes a Viernes: 8 am a 12 m y 2 p.m a 6 p.m"
-                },
-                {
-                  "nombre": "Cubará",
-                  "direccion": "Carrera 3 # 5 - 54",
-                  "telefono": "3134194092",
-                  "horario": "Área Administrativa: Lunes de 7:00 am 1:00 pm, Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm - 6:00 pm, Sábados 7:00 am a 1:00 pm | Área académica: Lunes de 8:00 am 12:00 pm, Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm - 8:00 pm, Sábados 8:00 am a 12:00 pm"
-                },
-                {
-                  "nombre": "Duitama",
-                  "direccion": "Kilómetro 1 vía Pantano de Vargas",
-                  "telefono": "Registro y Control Académico: 3175135651 y 3212712987 | Dirección: 3112816205",
-                  "horario": "Lunes y sábados de 7:00 am - 1:00 pm, Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm - 6:00 pm"
-                },
-                {
-                  "nombre": "Garagoa",
-                  "direccion": "Calle 10 #16-02",
-                  "telefono": "608 - 7881226 / 3112815611",
-                  "horario": "Área Administrativa: Lunes de 7:00 am 1:00 pm, Martes a viernes de 8:00 am a 12:00 pm y 2:00 pm - 6:00 pm, Sábados 7:00 am a 1:00 pm | Área académica: Lunes y Sábados: 7 a.m a 1 p.m / Martes a Viernes: 8 am a 12 m y 2 p.m a 6 p.m"
-                },
-                {
-                  "nombre": "Soatá",
-                  "direccion": "Carrera 6 # 8 - 47",
-                  "telefono": "608 - 5840545 / 608 - 5841787",
-                  "horario": "Área académica: Lunes y Sábados: 7 a.m a 1 p.m / Martes a Viernes: 8 am a 12 m y 2 p.m a 6 p.m"
-                },
-                {
-                  "nombre": "Socha",
-                  "direccion": "Calle 9 con Carrera 8 esquina",
-                  "telefono": "3112815560",
-                  "horario": "Área académica: Lunes y Sábados: 7 a.m a 1 p.m / Martes a Viernes: 8 am a 12 m y 2 p.m a 6 p.m"
-                },
-                {
-                  "nombre": "Sogamoso",
-                  "direccion": "Calle 5 # 1 - 08 Barrio Monquira",
-                  "telefono": "Consejería académica y monitoria: 3173680062 | Dirección de centro: 3176433722 | Registro y control: 3112814973",
-                  "horario": "Área académica: Lunes y Sábados: 7 a.m a 1 p.m / Martes a Viernes: 8 am a 12 m y 2 p.m a 6 p.m"
-                },
-                {
-                  "nombre": "Tunja",
-                  "direccion": "Calle 18 con Carrera 1 Barrio Manzanares",
-                  "telefono": "(601) 3443700 extensión 8002, 8003, 8020",
-                  "horario": "Área académica: Lunes y Sábados: 7 a.m a 1 p.m / Martes a Viernes: 8 am a 12 m y 2 p.m a 6 p.m"
-                }
-              ]
-            },
-            {
-              "name": "Zona Caribe - ZCAR",
-              "sedes": [
-                {
-                  "nombre": "Aguachica",
-                  "direccion": "Calle 5 # 38-52",
-                  "telefono": "3182194645",
-                  "horario": "Consejería: Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm, Sábados: 8:00 am - 1:00 pm | Registro y Control: Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm, Sábados: 8:00 am - 11:00 am | Sala Sistemas: Lunes a Viernes 9:00 am - 12:00 pm / 3:00 pm - 7:00 pm, Sábados: 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Puerto Colombia",
-                  "direccion": "Kilometro 11 antigua vía Pradomar – Salgar (150 metros adelante del Colegio Los Corales)",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm - sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Cartagena",
-                  "direccion": "Transversal 45 # 44A - 221 Avenida al Acueducto - Barrio Paraguay",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 6:00 pm / Sábados 8:00 am - 12:00 pm | Docentes: sábados de 8:00 am a 1:00 pm"
-                },
-                {
-                  "nombre": "Corozal",
-                  "direccion": "Carretera troncal Corozal entrada a Morroa",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:30 am - 12:30 pm / 2:15 pm - 6:15 pm - Sábados 08:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Curumaní",
-                  "direccion": "Carrera 17 # 12 - 57 Barrio El Paraíso antiguo subcentro Jaime Mestre Cock",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "La Guajira",
-                  "direccion": "Calle 15 # 8 - 63 Riohacha",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa (Incluido Registro y Control): lunes a viernes de 9:00 am a 12:00 pm / 3:00 pm a 6:00 pm, Sábados 8:00 am a 12:00 pm | Sala de sistemas estudiantes: de 8:00 am a 6:00 pm"
-                },
-                {
-                  "nombre": "Plato",
-                  "direccion": "Avenida 14 los contenedores - IED Gabriel Escobar Ballestas sede Principal",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Sahagún",
-                  "direccion": "Calle 19 # 16A - 10 Barrio San Roque",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Santa Marta",
-                  "direccion": "Av. El Libertador # 30 - 320",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes de 8:00 am a 12.00m / de 1:00pm a 6:00pm - Sábados de 8:00 am a 12.00 pm"
-                },
-                {
-                  "nombre": "Valledupar",
-                  "direccion": "Calle 39 # 4B - 02 Barrio Panamá",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 09:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm"
-                }
-              ]
-            },
-            {
-              "name": "Zona Centro Bogotá - ZCBC",
-              "sedes": [
-                {
-                  "nombre": "José Acevedo y Gómez",
-                  "direccion": "Transversal 31 # 12 - 38 sur",
-                  "telefono": "601-3443700 ext. 2728, 2755, 2748, 2702, 2733, 2731, 2773",
-                  "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Arbeláez",
-                  "direccion": "Avenida 7 # 1A-85 finca Casa Loma Arbeláez",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Chipaque",
-                  "direccion": "Carrera 3 # 5 -18 Segundo piso salón multifuncional",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 5:00 pm - Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Facatativá",
-                  "direccion": "Transversal 11 # 5 - 35 este Barrio Portal de María",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 1:00 pm / 2:00 pm - 5:00 pm - Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Fusagasugá",
-                  "direccion": "Avenida 8 N 4-18 Barrio Simon Bolivary",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Gachetá",
-                  "direccion": "Calle 15 # 8 - 63 Riohacha",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa: Lunes a viernes 8:30 am -12:30 pm / 2:00 pm - 6:00 pm, sábados 8:00 am - 12:00 pm | Consejería: lunes a viernes 9:00 am a 12:00 pm / 2:00 pm a 6:00 pm, sábados 8:00 am -12:00 pm | Docentes: Lunes a viernes de 9:00 am a 12:00 pm y de 2:00 pm a 6:00 pm, Sábados: 8:00 am a 1:00 pm acompañamiento INSITU"
-                },
-                {
-                  "nombre": "Girardot",
-                  "direccion": "Carrera 10 # 36 - 50 Vía Tocaima, barrio Rosa Blanca",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 9:00 am - 12:00 pm / 2:00 pm - 7:00 pm - Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Soacha",
-                  "direccion": "Diagonal 28 No. 28 - 99 Ciudad Verde, Soacha, Cundinamarca.",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes de 8:00 a.m. a 1:00 p.m. y de 2:00 p.m. a 5:00 p.m., Sábados de 8:00 a.m. a 12:00 p.m."
-                },
-                {
-                  "nombre": "Zipaquirá",
-                  "direccion": "Carrera 16 # 4A - 103 Barrio Algarra III",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 9:00 am - 12:30 pm / 2:00 pm - 6:00 pm - Sábados 9:00 am - 1:00 pm"
-                }
-              ]
-            },
-            {
-              "name": "Zona Centro Oriente - ZCORI",
-              "sedes": [
-                {
-                  "nombre": "Barrancabermeja",
-                  "direccion": "Calle 55 # 23-31 Barrio Galán - Segunda sede Calle 55 # 23-25 Barrio Galan",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa (Incluido Registro y Control): Lunes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm, Sábados 8:00 am a 1:00 pm | Docentes tiempo completo: Lunes a viernes 9:00 am a 12:00 pm / 4:00 pm a 8:00 pm, Sábados 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm"
-                },
-                {
-                  "nombre": "Bucaramanga",
-                  "direccion": "Carrera 16 #10a-21. Barrio Comuneros.",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa: Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm | Docentes ocasionales: Lunes a viernes 8:00 am a 12:00 pm / 1:00 pm - 4:00 pm, Sábados 8:00 am - 1:00 pm | Registro y Control: Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm, Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Cúcuta",
-                  "direccion": "Calle 24 # 2-172 Urbanización García Herreros",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa (incluye Registro y Control): Lunes a viernes: 8:00 a.m. - 12:00 m / 2:00 p.m. - 5:00 p.m., Sábados: 8:00 a.m. - 1:00 pm | Consejería Académica: Lunes a viernes: 9:00 a.m. - 12:00 m / 2:00 p.m. - 6:00 p.m., Sábados: 8:00 a.m. - 1:00 pm | Docentes Ocasionales: Lunes a viernes 8:00 am - 12:00 pm / 1:00 pm - 4:00 pm, Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Málaga",
-                  "direccion": "Carrera 9 # 15 - 20 Barrio Union",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados: 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Ocaña",
-                  "direccion": "Calle 10 N 12 - 11 Centro, Edificio Movistar - Antiguo Telecom.",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa (Incluido Registro y Control): Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm, Sábados 8:00 am - 12:00 pm | Docentes: Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 8:00 pm, Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Pamplona",
-                  "direccion": "Calle 5 # 3 - 05 Barrio El Carmen",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados: 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Vélez",
-                  "direccion": "Carrera 5 # 9 - 68",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa (Incluido Registro y Control): Martes a viernes de 8:00 am a 12:00 pm / 2:00 pm a 6:00 pm, Sábados 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm | Docentes: Martes a viernes 3:00 pm a 6:00 pm, Sábados 8:00 am a 1:00 pm / 2:00 pm a 5:00 pm"
-                }
-              ]
-            },
-            {
-              "name": "Zona Centro Sur - ZCSUR",
-              "sedes": [
-                {
-                  "nombre": "Cali",
-                  "direccion": "Av. Roosvelt # 36 - 60",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa: Lunes a viernes 8:00 am -12:00 pm y 2:00 pm - 6:00 pm - Sábado de 8:00 am -12:00 pm"
-                },
-                {
-                  "nombre": "El Bordo",
-                  "direccion": "Calle 5 N 7- 45 B / Barrio Limonar",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 9:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Palmira",
-                  "direccion": "Carrera 28 # 40 - 56 Barrio Versalles",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa: Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Pasto",
-                  "direccion": "Calle 14 No. 28-45 Sector Bomboná",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 9:00 am -12:00 pm / 2:00 pm - 7:00 pm - Sábado de 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Popayán",
-                  "direccion": "Sede norte (principal): Cra 5 #46N - 67 / Sede Centro carrera 3 #2-55",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Santander de Quilichao",
-                  "direccion": "Carrera 7 # 2B - 20 (Frente al Parque Bolívar)",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa: Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 12:00 pm"
-                },
-                {
-                  "nombre": "Tumaco",
-                  "direccion": "Calle Sucre C # 132 Piso 2 FRENTE AL BANCO BOGOTA",
-                  "telefono": "3182194645",
-                  "horario": "Área académica: Lunes a viernes 8:00 am -12:00 pm / 2:00 pm - 6:00 pm - Sábado de 8:00 am - 1:00 pm"
-                }
-              ]
-            },
-            {
-              "name": "Zona Sur - ZSUR",
-              "sedes": [
-                {
-                  "nombre": "Neiva",
-                  "direccion": "Av. Roosvelt # 36 - 60",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa: Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 12:00 m / 1:00 pm - 5:00 pm"
-                },
-                {
-                  "nombre": "Florencia",
-                  "direccion": "Cra 1 # 31 - 30 Barrio Cunduy",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 12:00 m / 2:00 pm - 5:00 pm"
-                },
-                {
-                  "nombre": "Ibagué",
-                  "direccion": "Calle 34 # 9a - 26 Barrio San Simón Parte Baja",
-                  "telefono": "3182194645",
-                  "horario": "Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm - Sábados 8:00 am - 12:00 m / 2:00 pm - 4:00 pm"
-                },
-                {
-                  "nombre": "La Plata",
-                  "direccion": "Calle 5 # 10 - 04, Primero de Mayo",
-                  "telefono": "3182194645",
-                  "horario": "Registro y Control: Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm, Sábados 8:00 am - 12:00 m | Docentes y Consejería académica: Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 7:00 pm, Sábados 8:00 am - 1:00 pm"
-                },
-                {
-                  "nombre": "Líbano",
-                  "direccion": "Av. Dg 3 Con Kr 17 Antiguo Batallon Patriotas - Barrio Las ferias",
-                  "telefono": "3182194645",
-                  "horario": "Registro y Control: Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm, Sábados 8:00 am - 12:00 m / 2:00 pm - 5:00 pm | Docentes y Consejería académica: Lunes, martes, jueves, viernes y sábado 8:00 am - 12:00 m"
-                },
-                {
-                  "nombre": "Mariquita",
-                  "direccion": "Calle 6 # 2A-44 Barrio Centro",
-                  "telefono": "3182194645",
-                  "horario": "Área Administrativa: Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm"
-                }
+                    "title": "Soporte UNAD por Zonas",
+                    "content": "Encuentra información de contacto de las sedes principales de la UNAD organizadas por zonas geográficas.",
+                    "type": "support",
+                    "zones": [
+                        {
+                            "name": "Zona Occidente - ZOCC",
+                            "sedes": [
+                                {
+                                    "nombre": "Medellín",
+                                    "direccion": "Carrera 45 # 55 - 19",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Dosquebradas",
+                                    "direccion": "Carrera 23 con Diagonal 25F Barrio Milán",
+                                    "telefono": "606 – 3116599",
+                                    "horario": "Lunes a Viernes 8:00 am - 8:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "La Dorada",
+                                    "direccion": "Calle 32 # 1 - 40 Barrio La Concordia",
+                                    "telefono": "606 - 8572588 / 3123065390",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "La Tebaida",
+                                    "direccion": "Cra 10, entre calles 8 y 9, Quindío",
+                                    "telefono": "3174351166",
+                                    "horario": "Lunes a viernes 8:00 am - 12:00 m / 2:00 pm - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Quibdó",
+                                    "direccion": "Carrera 2 # 24 - 05 Barrio Yesca Grande",
+                                    "telefono": "604 – 6721343",
+                                    "horario": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Turbo",
+                                    "direccion": "Carrera 34 No. 107-98 Barrio La Lucila",
+                                    "telefono": "604 - 827 2230 / 604 - 827 2231 / 3112814255",
+                                    "horario": "Lunes a viernes 9:00 am - 12:00 pm / 1:00 pm - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zona Amazonia y Orinoquia - ZAO",
+                            "sedes": [
+                                {
+                                    "nombre": "Acacias",
+                                    "direccion": "Kilometro 1 vía acacias Villavicencio",
+                                    "telefono": "3222506976 / 3122981972 / 3112904798",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 7:00 am - 4:00 pm"
+                                },
+                                {
+                                    "nombre": "Cumaral",
+                                    "direccion": "Casa de la Cultura Piso 2",
+                                    "telefono": "3124542343",
+                                    "horario": "Lunes a viernes 8:00 am - 12:00 pm / 2:00 pm - 4:00 pm - Sábados 9:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Guainía",
+                                    "direccion": "Calle 19 # 10 - 44 Barrio Comunero",
+                                    "telefono": "3112816222 / 3219590513",
+                                    "horario": "Lunes a viernes 8:00 am - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Leticia",
+                                    "direccion": "Calle 12 # 7-45 Barrio José María Hernández",
+                                    "telefono": "3176592896",
+                                    "horario": "Lunes a viernes 7:00 am - 6:00 pm - Sábados 7:00 am - 11:00 am"
+                                },
+                                {
+                                    "nombre": "Puerto Carreño",
+                                    "direccion": "Calle 7 # 20 - 169 Barrio Santa Teresita",
+                                    "telefono": "608 - 5654405 / 3112814949",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "San José del Guaviare",
+                                    "direccion": "Calle 19 # 19E - 40 Barrio La Granja",
+                                    "telefono": "608 - 5840545 / 608 – 5841787",
+                                    "horario": "Lunes a viernes 8:00 am - 8:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Yopal",
+                                    "direccion": "Carrera 15 # 14 - 65 Barrio La Corocora",
+                                    "telefono": "608 - 6334591 / 3118044764",
+                                    "horario": "Lunes a viernes 9:00 am - 8:00 pm - Sábados 8:00 am - 5:00 pm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zona Centro Boyacá - ZCBOY",
+                            "sedes": [
+                                {
+                                    "nombre": "Boavita",
+                                    "direccion": "Carrera 4 # 8 - 26",
+                                    "telefono": "608 - 7885292 / 3133700374",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a Viernes 8:00 am - 6:00 pm"
+                                },
+                                {
+                                    "nombre": "Chiquinquirá",
+                                    "direccion": "Carrera 6 # 30-32 Barrio Jardín del Norte",
+                                    "telefono": "608 - 7260775 / 3112814953",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a Viernes 8:00 am - 6:00 pm"
+                                },
+                                {
+                                    "nombre": "Cubará",
+                                    "direccion": "Carrera 3 # 5 - 54",
+                                    "telefono": "3134194092",
+                                    "horario": "Lunes 7:00 am - 1:00 pm - Martes a viernes 8:00 am - 8:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Duitama",
+                                    "direccion": "Kilómetro 1 vía Pantano de Vargas",
+                                    "telefono": "3175135651 / 3212712987 / 3112816205",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a viernes 8:00 am - 6:00 pm"
+                                },
+                                {
+                                    "nombre": "Garagoa",
+                                    "direccion": "Calle 10 #16-02",
+                                    "telefono": "608 - 7881226 / 3112815611",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a Viernes 8:00 am - 6:00 pm"
+                                },
+                                {
+                                    "nombre": "Soatá",
+                                    "direccion": "Carrera 6 # 8 - 47",
+                                    "telefono": "608 - 5840545 / 608 - 5841787",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a Viernes 8:00 am - 6:00 pm"
+                                },
+                                {
+                                    "nombre": "Socha",
+                                    "direccion": "Calle 9 con Carrera 8 esquina",
+                                    "telefono": "3112815560",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a Viernes 8:00 am - 6:00 pm"
+                                },
+                                {
+                                    "nombre": "Sogamoso",
+                                    "direccion": "Calle 5 # 1 - 08 Barrio Monquira",
+                                    "telefono": "3173680062 / 3176433722 / 3112814973",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a Viernes 8:00 am - 6:00 pm"
+                                },
+                                {
+                                    "nombre": "Tunja",
+                                    "direccion": "Calle 18 con Carrera 1 Barrio Manzanares",
+                                    "telefono": "(601) 3443700 ext. 8002, 8003, 8020",
+                                    "horario": "Lunes y Sábados 7:00 am - 1:00 pm - Martes a Viernes 8:00 am - 6:00 pm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zona Caribe - ZCAR",
+                            "sedes": [
+                                {
+                                    "nombre": "Aguachica",
+                                    "direccion": "Calle 5 # 38-52",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Barranquilla (Puerto Colombia)",
+                                    "direccion": "Km 11 antigua vía Pradomar - Salgar",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Cartagena",
+                                    "direccion": "Transversal 45 # 44A - 221",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Corozal",
+                                    "direccion": "Carretera troncal Corozal entrada a Morroa",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:30 am - 6:15 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Curumaní",
+                                    "direccion": "Carrera 17 # 12 - 57 Barrio El Paraíso",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "La Guajira (Riohacha)",
+                                    "direccion": "Calle 15 # 8 - 63",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Plato",
+                                    "direccion": "Avenida 14 los contenedores",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Sahagún",
+                                    "direccion": "Calle 19 # 16A - 10 Barrio San Roque",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Santa Marta",
+                                    "direccion": "Av. El Libertador # 30 - 320",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Valledupar",
+                                    "direccion": "Calle 39 # 4B - 02",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zona Centro Bogotá - ZCBC",
+                            "sedes": [
+                                {
+                                    "nombre": "José Acevedo y Gómez",
+                                    "direccion": "Transversal 31 # 12 - 38 sur",
+                                    "telefono": "601-3443700 ext. 2728, 2755",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Arbeláez",
+                                    "direccion": "Avenida 7 # 1A-85 finca Casa Loma",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Chipaque",
+                                    "direccion": "Carrera 3 # 5 -18 Segundo piso",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Facatativá",
+                                    "direccion": "Transversal 11 # 5 - 35 este",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Fusagasugá",
+                                    "direccion": "Avenida 8 N 4-18 Barrio Simon Bolivar",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Gachetá",
+                                    "direccion": "Calle 15 # 8 - 63",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:30 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Girardot",
+                                    "direccion": "Carrera 10 # 36 - 50 Vía Tocaima",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Soacha",
+                                    "direccion": "Diagonal 28 No. 28 - 99 Ciudad Verde",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 5:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Zipaquirá",
+                                    "direccion": "Carrera 16 # 4A - 103",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 6:00 pm - Sábados 9:00 am - 1:00 pm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zona Centro Oriente - ZCORI",
+                            "sedes": [
+                                {
+                                    "nombre": "Barrancabermeja",
+                                    "direccion": "Calle 55 # 23-31 Barrio Galán",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 5:00 pm"
+                                },
+                                {
+                                    "nombre": "Bucaramanga",
+                                    "direccion": "Carrera 16 #10a-21 Barrio Comuneros",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 4:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Cúcuta",
+                                    "direccion": "Calle 24 # 2-172 Urbanización García Herreros",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Málaga",
+                                    "direccion": "Carrera 9 # 15 - 20 Barrio Union",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Ocaña",
+                                    "direccion": "Calle 10 N 12 - 11 Centro",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 8:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Pamplona",
+                                    "direccion": "Calle 5 # 3 - 05 Barrio El Carmen",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Vélez",
+                                    "direccion": "Carrera 5 # 9 - 68",
+                                    "telefono": "3182194645",
+                                    "horario": "Martes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 5:00 pm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zona Centro Sur - ZCSUR",
+                            "sedes": [
+                                {
+                                    "nombre": "Cali",
+                                    "direccion": "Av. Roosvelt # 36 - 60",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "El Bordo",
+                                    "direccion": "Calle 5 N 7- 45 B Barrio Limonar",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Palmira",
+                                    "direccion": "Carrera 28 # 40 - 56 Barrio Versalles",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Pasto",
+                                    "direccion": "Calle 14 No. 28-45 Sector Bomboná",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 9:00 am - 7:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Popayán",
+                                    "direccion": "Cra 5 #46N - 67",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Santander de Quilichao",
+                                    "direccion": "Carrera 7 # 2B - 20",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                },
+                                {
+                                    "nombre": "Tumaco",
+                                    "direccion": "Calle Sucre C # 132 Piso 2",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 1:00 pm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Zona Sur - ZSUR",
+                            "sedes": [
+                                {
+                                    "nombre": "Neiva",
+                                    "direccion": "Av. Roosvelt # 36 - 60",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 7:00 pm - Sábados 8:00 am - 5:00 pm"
+                                },
+                                {
+                                    "nombre": "Florencia",
+                                    "direccion": "Cra 1 # 31 - 30 Barrio Cunduy",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 7:00 pm - Sábados 8:00 am - 5:00 pm"
+                                },
+                                {
+                                    "nombre": "Ibagué",
+                                    "direccion": "Calle 34 # 9a - 26",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 7:00 pm - Sábados 8:00 am - 4:00 pm"
+                                },
+                                {
+                                    "nombre": "La Plata",
+                                    "direccion": "Calle 5 # 10 - 04 Primero de Mayo",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 7:00 pm - Sábados 8:00 am - 1:00 pm"
+                                },
+                                {
+                                    "nombre": "Líbano",
+                                    "direccion": "Av. Dg 3 Con Kr 17 Barrio Las Ferias",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 5:00 pm"
+                                },
+                                {
+                                    "nombre": "Mariquita",
+                                    "direccion": "Calle 6 # 2A-44 Barrio Centro",
+                                    "telefono": "3182194645",
+                                    "horario": "Lunes a viernes 8:00 am - 6:00 pm - Sábados 8:00 am - 12:00 pm"
+                                }
                             ]
                         }
                     ]
@@ -552,28 +564,111 @@
         }
     ],
     "programs": {
-        "Lenguas": [
-            { "name": "Elementary English", "code": "503438689" },
-            { "name": "Introducción a la Licenciatura en Lenguas Extranjeras", "code": "503438688" },
-            { "name": "Cátedra Unadista", "code": "80017" },
-            { "name": "Competencias Comunicativas", "code": "40003" },
-            { "name": "Ética y Ciudadanía", "code": "40002" }
+        "Ingeniería de Sistemas": [
+            { "name": "Introducción a la Ingeniería", "code": "90013", "creditos": 2 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Pensamiento Lógico Matemático", "code": "200611", "creditos": 3 },
+            { "name": "Herramientas Digitales", "code": "200610", "creditos": 3 },
+            { "name": "Ética y Ciudadanía", "code": "40002", "creditos": 2 }
         ],
         "Psicología": [
-            { "name": "Generalidades de la Psicología", "code": "402537677" },
-            { "name": "Cátedra Unadista", "code": "80017" },
-            { "name": "Herramientas Digitales", "code": "200610" },
-            { "name": "Competencias Comunicativas", "code": "40003" },
-            { "name": "Ética y Ciudadanía", "code": "40002" }
+            { "name": "Generalidades de la Psicología", "code": "402537677", "creditos": 3 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Herramientas Digitales", "code": "200610", "creditos": 3 },
+            { "name": "Competencias Comunicativas", "code": "40003", "creditos": 3 },
+            { "name": "Ética y Ciudadanía", "code": "40002", "creditos": 2 }
         ],
-        "Ingeniería de Sistemas": [
-            { "name": "Introducción a la Ingeniería de Sistemas", "code": "90013" },
-            { "name": "Cátedra Unadista", "code": "80017" },
-            { "name": "Pensamiento Lógico Matemático", "code": "200611" },
-            { "name": "Herramientas Digitales", "code": "200610" },
-            { "name": "Ética y Ciudadanía", "code": "40002" },
-            { "name": "Electivo Interdisciplinar I", "code": "700004" },
-            { "name": "Servicio Social Unadista", "code": "700005" }
+        "Lenguas": [
+            { "name": "Elementary English", "code": "503438689", "creditos": 3 },
+            { "name": "Introducción a la Licenciatura", "code": "503438688", "creditos": 2 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Competencias Comunicativas", "code": "40003", "creditos": 3 },
+            { "name": "Ética y Ciudadanía", "code": "40002", "creditos": 2 }
+        ],
+        "Administración de Empresas": [
+            { "name": "Fundamentos de Administración", "code": "102001", "creditos": 3 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Matemáticas Básicas", "code": "90004", "creditos": 3 },
+            { "name": "Competencias Comunicativas", "code": "40003", "creditos": 3 },
+            { "name": "Ética y Ciudadanía", "code": "40002", "creditos": 2 }
+        ],
+        "Ingeniería Industrial": [
+            { "name": "Introducción a la Ingeniería Industrial", "code": "212019", "creditos": 2 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Álgebra Lineal", "code": "208046", "creditos": 3 },
+            { "name": "Herramientas Digitales", "code": "200610", "creditos": 3 },
+            { "name": "Competencias Comunicativas", "code": "40003", "creditos": 3 }
+        ],
+        "Comunicación Social": [
+            { "name": "Introducción a la Comunicación", "code": "551104", "creditos": 3 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Competencias Comunicativas", "code": "40003", "creditos": 3 },
+            { "name": "Ética y Ciudadanía", "code": "40002", "creditos": 2 },
+            { "name": "Herramientas Digitales", "code": "200610", "creditos": 3 }
+        ],
+        "Contaduría Pública": [
+            { "name": "Pensamiento Lógico y Matemático", "code": "200611", "creditos": 3 },
+            { "name": "Epistemología y Pensamiento Contable", "code": "106002", "creditos": 3 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Competencias Comunicativas", "code": "40003", "creditos": 3 },
+            { "name": "Herramientas Digitales", "code": "200610", "creditos": 3 }
+        ],
+        "Licenciatura en Educación Infantil": [
+            { "name": "Introducción a la Licenciatura", "code": "502707680", "creditos": 2 },
+            { "name": "Lectura y Escritura Académicas", "code": "514519", "creditos": 3 },
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Herramientas Digitales", "code": "200610", "creditos": 3 },
+            { "name": "Competencias Comunicativas", "code": "40003", "creditos": 3 }
+        ],
+        "Tecnología en Gestión de Obras Civiles": [
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Ética y Ciudadanía", "code": "40001", "creditos": 2 },
+            { "name": "Fundamentos de Gestión Integral", "code": "112001", "creditos": 3 },
+            { "name": "Pensamiento Administrativo", "code": "112002", "creditos": 3 },
+            { "name": "Pensamiento Lógico Matemático", "code": "200611", "creditos": 3 }
+        ],
+        "Ingeniería Ambiental": [
+            { "name": "Cátedra Unadista", "code": "80017", "creditos": 2 },
+            { "name": "Introducción a la Problemática Ambiental", "code": "358001", "creditos": 3 },
+            { "name": "Pensamiento Lógico y Matemático", "code": "200611", "creditos": 3 },
+            { "name": "Álgebra y Trigonometría", "code": "301301", "creditos": 3 },
+            { "name": "Herramientas Digitales", "code": "200610", "creditos": 3 }
+        ]
+    },
+    "bienestar": {
+        "descripcion": "El Sistema de Bienestar Integral Unadista es un dispositivo organizacional que fortalece la cultura del buen servicio para fomentar el espíritu unadista solidario.",
+        "servicios": [
+            {
+                "nombre": "Telepsicología",
+                "descripcion": "Servicio de atención sincrónica online para orientación en primeros auxilios psicológicos y contención emocional.",
+                "enlace": "https://chatvisae.unad.edu.co/client.php?locale=es",
+                "icono": "🧠"
+            },
+            {
+                "nombre": "Portal Laboral",
+                "descripcion": "Favorece la inserción laboral de estudiantes y egresados con ofertas exclusivas según el perfil profesional.",
+                "enlace": "https://visae.unad.edu.co/egresados",
+                "icono": "💼"
+            },
+            {
+                "nombre": "Nodos Virtuales",
+                "descripcion": "Herramienta tecnopedagógica con contenidos y estrategias pedagógicas en constante actualización para dinamizar la vida universitaria.",
+                "enlace": "https://campus0d.unad.edu.co",
+                "icono": "🌐"
+            },
+            {
+                "nombre": "Línea Salud Mental",
+                "descripcion": "Escenarios de atención y acompañamiento con estrategias psicopedagógicas para responder de manera positiva al estrés de la vida.",
+                "enlace": "https://visae.unad.edu.co/bienestar",
+                "icono": "💚"
+            },
+            {
+                "nombre": "Seguro Estudiantil",
+                "descripcion": "Todos los estudiantes con matrícula activa cuentan con seguro que los ampara frente a distintas situaciones de salud y accidentes.",
+                "enlace": "https://visae.unad.edu.co/bienestar",
+                "icono": "🏥"
+            }
         ]
     }
 }
+
