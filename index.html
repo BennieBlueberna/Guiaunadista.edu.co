@@ -3,20 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía Unadista</title>
+    <title>Guía Unadista - Tu Portal Académico Completo</title>
+    <meta name="description" content="Portal completo de servicios académicos de la UNAD con herramientas interactivas, calculadora de créditos, generador de horarios y más.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- PANTALLA DE CARGA -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <svg viewBox="0 0 100 100" class="spinner">
+                    <circle cx="50" cy="50" r="40" stroke="#005baa" stroke-width="8" fill="none" stroke-dasharray="251.2" stroke-dashoffset="0">
+                        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="1.5s" repeatCount="indefinite"/>
+                    </circle>
+                </svg>
+            </div>
+            <h2>Cargando Guía Unadista</h2>
+            <div class="loading-bar">
+                <div class="loading-progress" id="loadingProgress"></div>
+            </div>
+            <p class="loading-text">Preparando tu experiencia...</p>
+        </div>
+    </div>
+
+    <!-- TUTORIAL INICIAL -->
+    <div class="tutorial-overlay" id="tutorialOverlay">
+        <div class="tutorial-content">
+            <button class="tutorial-close" id="tutorialClose">&times;</button>
+            <div class="tutorial-step" data-step="1">
+                <div class="tutorial-icon">👋</div>
+                <h3>¡Bienvenido a la Guía Unadista!</h3>
+                <p>Te guiaremos en un breve recorrido para que conozcas todas las funcionalidades de tu portal académico.</p>
+            </div>
+            <div class="tutorial-step" data-step="2" style="display:none;">
+                <div class="tutorial-icon">🧭</div>
+                <h3>Navegación Principal</h3>
+                <p>Usa el menú superior para explorar las 5 secciones: Inicio, Servicios Académicos, Servicios Institucionales, Planificación Académica y Ayuda.</p>
+            </div>
+            <div class="tutorial-step" data-step="3" style="display:none;">
+                <div class="tutorial-icon">🔧</div>
+                <h3>Herramientas Útiles</h3>
+                <p>Encuentra calculadora de créditos, generador de horarios, agenda académica y mapa de sedes interactivo.</p>
+            </div>
+            <div class="tutorial-step" data-step="4" style="display:none;">
+                <div class="tutorial-icon">🌙</div>
+                <h3>Personalización</h3>
+                <p>Activa el modo oscuro con el interruptor en el header y usa el menú de accesibilidad (botón flotante) para ajustar la visualización.</p>
+            </div>
+            <div class="tutorial-navigation">
+                <button class="tutorial-btn" id="tutorialPrev" style="display:none;">Anterior</button>
+                <div class="tutorial-dots" id="tutorialDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="tutorial-btn tutorial-btn-primary" id="tutorialNext">Siguiente</button>
+            </div>
+            <label class="tutorial-checkbox">
+                <input type="checkbox" id="dontShowAgain">
+                <span>No volver a mostrar este tutorial</span>
+            </label>
+        </div>
+    </div>
+
     <!-- HEADER -->
     <header>
         <div class="header-content">
-            <img src="./assets/logo3.png" alt="Logo Guía Unadista" class="logo">
+            <img src="./assets/logo3.png" alt="Logo Guía Unadista" class="logo" onerror="this.src='https://via.placeholder.com/200x100/003366/FFFFFF?text=UNAD+Logo'">
             <h1>Guía Unadista</h1>
         </div>
-        <div class="dark-mode-container" id="darkModeToggle">
-            <span class="toggle-label" id="toggleLabel">Modo Claro</span>
-            <div class="toggle-switch" id="toggleSwitch">
-                <div class="toggle-slider"></div>
+        <div class="header-actions">
+            <!-- Buscador -->
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="Buscar información...">
+                <button class="search-btn" id="searchBtn">🔍</button>
+                <div class="search-results" id="searchResults"></div>
+            </div>
+            <!-- Toggle Modo Oscuro -->
+            <div class="dark-mode-container" id="darkModeToggle">
+                <span class="toggle-label" id="toggleLabel">Modo Claro</span>
+                <div class="toggle-switch" id="toggleSwitch">
+                    <div class="toggle-slider"></div>
+                </div>
             </div>
         </div>
     </header>
@@ -29,9 +98,75 @@
 
     <!-- FOOTER -->
     <footer>
-        <img src="./assets/logoalt2_2.png" alt="Logo Footer" class="footer-logo">
-        <p>© 2025 Guía Unadista - Proyecto Educativo Multimedia UNAD</p>
+        <div class="footer-content">
+            <img src="./assets/logoalt2_2.png" alt="Logo Footer" class="footer-logo" onerror="this.src='https://via.placeholder.com/150x75/003366/FFFFFF?text=UNAD'">
+            <p>© 2025 Guía Unadista - Proyecto Educativo Multimedia UNAD</p>
+            <p class="footer-credits">Desarrollado por estudiantes UNAD | Curso Aplicaciones Multimedia</p>
+        </div>
     </footer>
+
+    <!-- BOTÓN FLOTANTE DE ACCESIBILIDAD -->
+    <button class="accessibility-button" id="accessibilityBtn" aria-label="Abrir menú de accesibilidad">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C10.9 2 10 2.9 10 4C10 5.1 10.9 6 12 6C13.1 6 14 5.1 14 4C14 2.9 13.1 2 12 2M12 8C9.8 8 8 9.8 8 12V22H10V16H11V22H13V16H14V22H16V12C16 9.8 14.2 8 12 8Z"/>
+        </svg>
+    </button>
+
+    <!-- PANEL DE ACCESIBILIDAD -->
+    <div class="accessibility-panel" id="accessibilityPanel">
+        <div class="panel-header">
+            <h2>Accesibilidad (CTRL+U)</h2>
+            <button class="close-btn" id="closeAccessibilityBtn" aria-label="Cerrar menú">&times;</button>
+        </div>
+        
+        <div class="panel-content">
+            <div class="profile-section">
+                <h3>Perfiles de Accesibilidad</h3>
+                <div class="profile-grid">
+                    <button class="profile-btn" data-profile="motor">Discapacidad Motora</button>
+                    <button class="profile-btn" data-profile="blind">Ceguera</button>
+                    <button class="profile-btn" data-profile="colorblind">Daltonismo</button>
+                    <button class="profile-btn" data-profile="dyslexia">Dislexia</button>
+                    <button class="profile-btn" data-profile="lowvision">Visión Baja</button>
+                    <button class="profile-btn" data-profile="cognitive">Cognitivo</button>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="profile-section">
+                <h3>Ajustes Individuales</h3>
+                <div class="feature-grid">
+                    <button class="feature-btn" data-feature="large-text">
+                        <div class="feature-icon">🔍</div>
+                        <div>Agrandar texto</div>
+                    </button>
+                    <button class="feature-btn" data-feature="high-contrast">
+                        <div class="feature-icon">◐</div>
+                        <div>Alto contraste</div>
+                    </button>
+                    <button class="feature-btn" data-feature="dyslexia-font">
+                        <div class="feature-icon">Aa</div>
+                        <div>Fuente dislexia</div>
+                    </button>
+                    <button class="feature-btn" data-feature="highlight-links">
+                        <div class="feature-icon">🔗</div>
+                        <div>Resaltar enlaces</div>
+                    </button>
+                    <button class="feature-btn" data-feature="increased-spacing">
+                        <div class="feature-icon">↕</div>
+                        <div>Espaciado</div>
+                    </button>
+                    <button class="feature-btn" data-feature="no-animations">
+                        <div class="feature-icon">⏸</div>
+                        <div>Sin animaciones</div>
+                    </button>
+                </div>
+            </div>
+
+            <button class="reset-btn" id="resetAccessibilityBtn">↺ Restablecer</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
